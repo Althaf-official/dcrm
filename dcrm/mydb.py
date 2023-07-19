@@ -13,3 +13,7 @@ dataBase = mysql.connector.connect(
 )
 #prepare a cusor object
 cursorObject = dataBase.cursor()
+
+#create a database
+cursorObject.execute("CREATE DATABASE mascollection")
+print("Database is All Done")
