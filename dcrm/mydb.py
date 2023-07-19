@@ -5,11 +5,11 @@
 
 import mysql.connector
 
-
 dataBase = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
-    password = 'mAs27121995@@'
+    password = 'mAs27121995@@',
+    database = '127.0.0.1'
 )
 #prepare a cusor object
 cursorObject = dataBase.cursor()
