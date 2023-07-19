@@ -10,6 +10,6 @@ dataBase = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
     password = 'mAs27121995@@'
-    
-
 )
+#prepare a cusor object
+cursorObject = dataBase.cursor()
